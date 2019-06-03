@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="style.css">
+   <script src="js/all.js"></script>
+    <title>Movie App</title>
+</head>
+<body>
+    
+<div class="movies-header">
+    <div class="logo">
+        <img src="images/logo.png" alt="logo" width="100px">
+        <h2>The Movies App</h2>
+    </div>
+
+    <div class="movies-filters-banner">
+        <div class="filter open">
+            <i class="fas fa-arrow-circle-down icon"></i>
+            <span class="btn-title">Filter By</span>
+        </div>
+        <div class="filter-container">
+            <label>Category</label>
+            <select id="categories">
+                <option value="all" selected>All Categories</option>
+            </select>
+
+            <label>Directors</label>
+            <select id="directors">
+                <option value="all" selected>All Directors</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="movies-content">
+    <!-- <div class="movie-item">
+        <div class="header">
+            <div class="header-left">
+                <img src="db/movies/1.jpg" alt="movie_img">
+            </div>
+            <div class="header-right">
+                <h3>Pulp Fiction</h3>
+                <div class="node">
+                    <span>Year : </span>1985
+                </div>
+                <div class="node">
+                    <span>Director : </span>Quentin Tarantino
+                </div>
+                <div class="node">
+                    <span>Type : </span>Action
+                </div>
+                <div class="show-desc">See description</div>
+            </div>
+        </div>
+        <div class="description">
+            <strong>Description</strong> Suspendisse vel aliquet massa. Donec tristique sem erat. Mauris ipsum ante, interdum vitae nulla eu, mollis eleifend lectus. Pellentesque eget nibh et velit efficitur suscipit. Maecenas in sapien non ipsum convallis.
+        </div>
+    </div> -->
+</div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
